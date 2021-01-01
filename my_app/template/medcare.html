@@ -1,0 +1,133 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <style>
+           
+
+        </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row my-row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-3"><img src="{% static 'images/nabh.png' %}"></div>
+            <div class="col-lg-2"> <a href="">about MEdCaRE</a></div>
+            <div class="col-lg-2"><a href="">contact</a></div>
+            <div class="col-lg-2"><input type="search" placeholder="search something"><img src="{% static 'images/search.png' %}"height="30px"></div>
+        </div>
+        <div class="row my-row1">
+            <div class="col-lg-2 navbar-header">
+                <a class="navbar-brand" ><b>MEdCaRE</b></a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Patient care
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="patient%20registration.html">patient registration</a></li><br>
+                        <li><a href="#">Find a doctor</a></li><br>
+                        <li><a href="getappointment.html">Get an appointment</a></li><br>
+                        <li><a href="#">Laboratory reports</a></li><br>
+                        <li><a href="#">Make an enquiry</a></li><br>
+                        <li><a href="#">Give feedback</a></li>
+                     </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Medical specialities
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Specialities</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Health Checkup</a></li>
+                
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Wellness
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Patient awareness</a></li>
+                                <li><a href="#">Doctors speak</a></li>
+                                </ul>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Patient Experience
+                                    <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">     
+                                 <li><a href="#">Patient speak</a></li>
+                                 <li><a href="#">Patient video</a></li>
+                                 </ul>
+              </ul>
+
+    </div>
+        <img src="{% static 'images/docter1.jpg'%}" height="50%" width="100%" >
+        <br><br>
+        <h1 class="welcome">ABOUT MedCaRE
+        </h1>
+        <br><br>
+        <p>
+            MEdCaRE IS, the well-acclaimed health enterprise and one of the leading healthcare systems in Kerala, assures comprehensive health care services with a global standard. The 600-bedded multi-specialty hospital is renowned for its excellent medical expertise, nursing care and quality diagnostic services.
+        </p>
+<br>
+<p>
+ being the Centre of Excellence, provide advanced diagnostic and treatment facilities in the field of cardiology, oncology, nephrology, orthopaedics and neuro sciences. We conduct complicated treatments in the field of cosmetic surgeries, multi organ transplants and neuro surgeries with excellent success rate. MeDcAREstands as the best hospital in Calicut, Kerala providing advanced health care services. We have a track record of providing the low cost liver transplant in India.
+</p>
+<br>
+<p>
+With Level IV Trauma Care centre, Advanced Interventional Radiology, sophisticated intensive care facilities and the best blood bank in the district of Calicut, thanks to its component separation facility feature,continuously strives to provide the best all-round care. All the care centres in the hospital are fully equipped with the latest technological brilliance aiding in complete and comprehensive treatment of patients.
+        </p>
+        <br><br>
+        <h2 class="department">OUR DEPARTMENTS</h2>
+        <ul>
+            <li>DENTAL CARE</li>
+            <li>CARDIOLOGY</li>
+            <li>OTTOLOGY</li>
+            <li>DERMATOLOGY</li>
+            <li>HEPATOLOGY</li>
+            <li>PHYSIOTHERAPHY</li>
+            <li>PSYCHIATRY</li>
+        </ul>
+        <footer>
+<div class="foot-ftr">
+    <div class="foot-box">
+        <h2>services</h2>
+        <a href="">HEPATOLOGY</a>
+        <a href="">LABORATORY</a>
+        <a href="">VACCINATIONS</a>
+    </div>
+    <div class="foot-box">
+        <h2>About us</h2>
+
+        <a href="">carrers</a>
+        <a href="">management</a>
+        <a href="">our doctor achieves</a>
+    </div>
+
+
+    <div class="foot-box">
+        <h2>contact us</h2>
+        <a href="">post a query</a>
+        <a href="">email</a>
+        <a href="">mobilenumber</a>
+    </div>
+    <div class="foot-box">
+        <h2>facilities</h2>
+        <a href="">HEPATOLOGY</a>
+        <a href="">LABORATORY</a>
+        <a href="">VACCINATIONS</a>
+    </div>
+    
+        </footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.my-row{
+    background-color: cornsilk;
+    text-align: justify;
+}
+.my-row1
+{
+    background-color: rgb(211, 133, 59);
+    
+}
+.welcome{
+    font-size: 35px;
+    font-style:oblique;
+    text-transform: uppercase;
+    background-color:rgb(158, 34, 12);
+    width: 60%;
+    padding: 0.5px;
+    color: white;
+
+}
+.department{
+    background-color: rgb(158, 34, 12);
+    width: 60%;
+    color: white;
+}
+footer{
+    width: 100%;
+    height:500px;
+    background-color: black;
+    float: left;
+    color: white;
+    padding: 30px 0;
+}

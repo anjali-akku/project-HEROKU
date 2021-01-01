@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+
+.head{
+    text-align: center;
+    background-color:#085999;
+    color: white;
+    padding: 20px;
+    margin-top:0;
+}
+
+.register{
+    background-image: url(care.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+.reg{
+    background-color:#085999;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div  class="row register">
+        <h1 class="head">patient registration form</h1><br>
+      <div class="col-sm-3">
+           </div>
+           <div class="col-sm-6 reg">
+               <form class="form-horizontal" method="post" action=".php" >
+                   <div class="form-group">
+                       <label class="col-sm-4">first name</label>
+                       <div class="col-sm-8">
+                           <input type="text" class="form-control" placeholder="enter first name">
+                        
+                       </div>
+                   </div>
+                   <div class="form-group">
+                    <label class="col-sm-4">Last name</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="enter  last name">
+    
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4">Address</label>
+                    <div class="col-sm-8">
+                       <textarea rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4">Age</label>
+                    <div class="col-sm-8">
+                        <input type="number" class="form-control" placeholder="enter your age">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4">gender</label>
+                    <div class="col-sm-2">male:
+                        <input type="radio" name="gender">
+                    </div>
+                    <div class="col-sm-2">female:
+                        <input type="radio" name="gender">
+                    </div>
+                    
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4">mobile number</label>
+                    <div class="col-sm-8">
+            <input type="number"placeholder="enter your mobile number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-8">
+                        <button type="submit" class="btn btn-default">submit</button>
+                    </div>
+                </div>
+               </form>
+        
+           
+    </div>
+</div>
+
+</body>
+</html>
