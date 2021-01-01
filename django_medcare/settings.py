@@ -26,7 +26,7 @@ SECRET_KEY = 'ii2-z6c(j-l19l6b%nycq)dpio086p6av=v^!ir3-34c#^68ga'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django_medcare.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
